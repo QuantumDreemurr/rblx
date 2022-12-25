@@ -1,7 +1,4 @@
-return {
-	name = "dex",
-	client = true,
-	source = function()
+return function()
 		local EmbeddedModules = {
 			["Explorer"] = function()
 --[[
@@ -11116,4 +11113,3 @@ return search]==]
 
 		--for i,v in pairs(Main.MissingEnv) do print(i,v) end
 	end,
-}
